@@ -1,3 +1,45 @@
 div{
     width: 33%;
 }
+
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+rgba( 232, 102, 236, 1), 0 0 15px
+rgba( 232, 102, 236, 1);
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+
+div{
+    padding-top: 25px;
+    border: dashed;
+}
+
+div header{
+    border: black;
+    border: solid;
+}
+
+footer{
+    /* text-align: center; */
+    display: flex;
+    justify-content:space-between;
+}
