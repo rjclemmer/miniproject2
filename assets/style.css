@@ -1,3 +1,7 @@
+*{
+    background-color: blueviolet;
+}
+
 div{
     width: 33%;
 }
@@ -36,10 +40,25 @@ div{
 div header{
     border: black;
     border: solid;
+    text-align: center;
+    background-color: beige;
+    height: 50px;
 }
 
+div pre{
+    background-color: blue;
+    border: black solid;
+    
+}
+
+
 footer{
-    /* text-align: center; */
+    
     display: flex;
     justify-content:space-between;
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
 }
